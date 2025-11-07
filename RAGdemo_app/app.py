@@ -8,9 +8,9 @@ from pinecone import Pinecone, ServerlessSpec
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 
 # pinecone setup
-os.environ["PINECONE_API_KEY"] = "pcsk_5ynbw1_B3ChsR7YMhGgLZKuuX36TTnGmzGLd4kREuGnmin96enqrjzWX32WukKuEVtUmZ8"
-os.environ["PINECONE_ENV"] = "us-east-1"
-INDEX_NAME = "variants-index"
+os.environ["PINECONE_API_KEY"] = "YOUR_API_KEY"
+os.environ["PINECONE_ENV"] = "YOUR_INDEX_REGION"
+INDEX_NAME = "YOUR_INDEX_NAME"
 
 pc = Pinecone(api_key=os.environ.get("PINECONE_API_KEY"))
 
