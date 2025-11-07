@@ -78,16 +78,13 @@ def query_variants(user_query, top_k=3, similarity_threshold=0.5, gene_filter=No
         return [{"message": "Insufficient data; consult a clinician."}]
     return results
 
-# ------------------------------
-# 5. GPT-2 RAG generation
-# ------------------------------
-# Load GPT-2
-tokenizer = AutoTokenizer.from_pretrained("gpt2")
-model = AutoModelForCausalLM.from_pretrained("gpt2")
+# load biogpt
+tokenizer = AutoTokenizer.from_pretrained("microsoft/biogpt")
+model = AutoModelForCausalLM.from_pretrained("microsoft/biogpt")
 llm_pipeline = pipeline("text-generation", model=model, tokenizer=tokenizer, max_length=200)
 
 def generate_rag_answer(user_query, top_matches):
-    # Combine contexts
+    # combine contexts
     context_text = "\n".join([
         f"{m['metadata']['interpretation']} (Source: {m['metadata']['source']})"
         for m in top_matches if "metadata" in m
@@ -106,7 +103,7 @@ Contexts:
 # ------------------------------
 # 6. Streamlit interface
 # ------------------------------
-st.title("Biomedical Variant RAG Demo (GPT-2)")
+st.title("Biomedical Variant RAG Demo (biogpt)")
 
 user_query = st.text_input("Enter your variant query:", "Best drug for BRCA1 mutation?")
 gene_filter = st.text_input("Gene filter (optional):", "")
