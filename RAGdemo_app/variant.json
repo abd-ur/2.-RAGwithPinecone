@@ -1,0 +1,492 @@
+[
+  {
+    "variant": "TP53 p.R248W",
+    "gene": "TP53",
+    "cancer_type": "breast",
+    "interpretation": "Pathogenic; Level 1 evidence for olaparib.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "BRCA1 c.5266dupC",
+    "gene": "BRCA1",
+    "cancer_type": "ovarian",
+    "interpretation": "Likely pathogenic; PARP inhibitors recommended.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "EGFR L858R",
+    "gene": "EGFR",
+    "cancer_type": "lung",
+    "interpretation": "Oncogenic; TKI therapy (osimertinib).",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "KRAS G12D",
+    "gene": "KRAS",
+    "cancer_type": "colorectal",
+    "interpretation": "Benign; No actionable therapy.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "PIK3CA E545K",
+    "gene": "PIK3CA",
+    "cancer_type": "breast",
+    "interpretation": "VUS; Monitor and consider trials.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "HER2 Y537S",
+    "gene": "HER2",
+    "cancer_type": "breast",
+    "interpretation": "Pathogenic; Immunotherapy (pembrolizumab) advised.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "ATM del746-750",
+    "gene": "ATM",
+    "cancer_type": "prostate",
+    "interpretation": "Likely oncogenic; Chemo to moderate extent.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "PTEN Q22*",
+    "gene": "PTEN",
+    "cancer_type": "prostate",
+    "interpretation": "Resistance mutation; Switch to alternative TKI.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "APC R130*",
+    "gene": "APC",
+    "cancer_type": "colorectal",
+    "interpretation": "Founder mutation; Genetic counseling required.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "TP53 splice",
+    "gene": "TP53",
+    "cancer_type": "pancreatic",
+    "interpretation": "Truncating variant; Radiation not advised.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "BRCA2 p.R248W",
+    "gene": "BRCA2",
+    "cancer_type": "ovarian",
+    "interpretation": "Pathogenic; Level 1 evidence for olaparib.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "EGFR c.5266dupC",
+    "gene": "EGFR",
+    "cancer_type": "lung",
+    "interpretation": "Likely pathogenic; PARP inhibitors recommended.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "KRAS L858R",
+    "gene": "KRAS",
+    "cancer_type": "colorectal",
+    "interpretation": "Oncogenic; TKI therapy (osimertinib).",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "PIK3CA G12D",
+    "gene": "PIK3CA",
+    "cancer_type": "breast",
+    "interpretation": "Benign; No actionable therapy.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "HER2 E545K",
+    "gene": "HER2",
+    "cancer_type": "breast",
+    "interpretation": "VUS; Monitor and consider trials.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "ATM Y537S",
+    "gene": "ATM",
+    "cancer_type": "prostate",
+    "interpretation": "Pathogenic; Immunotherapy (pembrolizumab) advised.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "PTEN del746-750",
+    "gene": "PTEN",
+    "cancer_type": "prostate",
+    "interpretation": "Likely oncogenic; Chemo to moderate extent.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "APC Q22*",
+    "gene": "APC",
+    "cancer_type": "colorectal",
+    "interpretation": "Resistance mutation; Switch to alternative TKI.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "TP53 R130*",
+    "gene": "TP53",
+    "cancer_type": "pancreatic",
+    "interpretation": "Founder mutation; Genetic counseling required.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "BRCA1 splice",
+    "gene": "BRCA1",
+    "cancer_type": "ovarian",
+    "interpretation": "Truncating variant; Radiation not advised.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "BRCA2 p.R248W",
+    "gene": "BRCA2",
+    "cancer_type": "breast",
+    "interpretation": "Pathogenic; Level 1 evidence for olaparib.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "EGFR c.5266dupC",
+    "gene": "EGFR",
+    "cancer_type": "lung",
+    "interpretation": "Likely pathogenic; PARP inhibitors recommended.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "KRAS L858R",
+    "gene": "KRAS",
+    "cancer_type": "colorectal",
+    "interpretation": "Oncogenic; TKI therapy (osimertinib).",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "PIK3CA G12D",
+    "gene": "PIK3CA",
+    "cancer_type": "breast",
+    "interpretation": "Benign; No actionable therapy.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "HER2 E545K",
+    "gene": "HER2",
+    "cancer_type": "breast",
+    "interpretation": "VUS; Monitor and consider trials.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "ATM Y537S",
+    "gene": "ATM",
+    "cancer_type": "prostate",
+    "interpretation": "Pathogenic; Immunotherapy (pembrolizumab) advised.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "PTEN del746-750",
+    "gene": "PTEN",
+    "cancer_type": "prostate",
+    "interpretation": "Likely oncogenic; Chemo to moderate extent.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "APC Q22*",
+    "gene": "APC",
+    "cancer_type": "colorectal",
+    "interpretation": "Resistance mutation; Switch to alternative TKI.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "TP53 R130*",
+    "gene": "TP53",
+    "cancer_type": "pancreatic",
+    "interpretation": "Founder mutation; Genetic counseling required.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "BRCA1 splice",
+    "gene": "BRCA1",
+    "cancer_type": "ovarian",
+    "interpretation": "Truncating variant; Radiation not advised.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "BRCA2 p.R248W",
+    "gene": "BRCA2",
+    "cancer_type": "melanoma",
+    "interpretation": "Pathogenic; Level 1 evidence for olaparib.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "EGFR c.5266dupC",
+    "gene": "EGFR",
+    "cancer_type": "lung",
+    "interpretation": "Likely pathogenic; PARP inhibitors recommended.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "KRAS L858R",
+    "gene": "KRAS",
+    "cancer_type": "colorectal",
+    "interpretation": "Oncogenic; TKI therapy (osimertinib).",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "PIK3CA G12D",
+    "gene": "PIK3CA",
+    "cancer_type": "breast",
+    "interpretation": "Benign; No actionable therapy.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "HER2 E545K",
+    "gene": "HER2",
+    "cancer_type": "breast",
+    "interpretation": "VUS; Monitor and consider trials.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "ATM Y537S",
+    "gene": "ATM",
+    "cancer_type": "bladder",
+    "interpretation": "Pathogenic; Immunotherapy (pembrolizumab) advised.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "PTEN del746-750",
+    "gene": "PTEN",
+    "cancer_type": "prostate",
+    "interpretation": "Likely oncogenic; Chemo to moderate extent.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "APC Q22*",
+    "gene": "APC",
+    "cancer_type": "colorectal",
+    "interpretation": "Resistance mutation; Switch to alternative TKI.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "TP53 R130*",
+    "gene": "TP53",
+    "cancer_type": "pancreatic",
+    "interpretation": "Founder mutation; Genetic counseling required.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "BRCA1 splice",
+    "gene": "BRCA1",
+    "cancer_type": "ovarian",
+    "interpretation": "Truncating variant; Radiation not advised.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "BRCA2 p.R248W",
+    "gene": "BRCA2",
+    "cancer_type": "gastric",
+    "interpretation": "Pathogenic; Level 1 evidence for olaparib.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "EGFR c.5266dupC",
+    "gene": "EGFR",
+    "cancer_type": "lung",
+    "interpretation": "Likely pathogenic; PARP inhibitors recommended.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "KRAS L858R",
+    "gene": "KRAS",
+    "cancer_type": "colorectal",
+    "interpretation": "Oncogenic; TKI therapy (osimertinib).",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "PIK3CA G12D",
+    "gene": "PIK3CA",
+    "cancer_type": "breast",
+    "interpretation": "Benign; No actionable therapy.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "HER2 E545K",
+    "gene": "HER2",
+    "cancer_type": "breast",
+    "interpretation": "VUS; Monitor and consider trials.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "ATM Y537S",
+    "gene": "ATM",
+    "cancer_type": "leukemia",
+    "interpretation": "Pathogenic; Immunotherapy (pembrolizumab) advised.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "PTEN del746-750",
+    "gene": "PTEN",
+    "cancer_type": "prostate",
+    "interpretation": "Likely oncogenic; Chemo to moderate extent.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "APC Q22*",
+    "gene": "APC",
+    "cancer_type": "colorectal",
+    "interpretation": "Resistance mutation; Switch to alternative TKI.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "TP53 R130*",
+    "gene": "TP53",
+    "cancer_type": "pancreatic",
+    "interpretation": "Founder mutation; Genetic counseling required.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "BRCA1 splice",
+    "gene": "BRCA1",
+    "cancer_type": "ovarian",
+    "interpretation": "Truncating variant; Radiation not advised.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "BRCA2 p.R248W",
+    "gene": "BRCA2",
+    "cancer_type": "melanoma",
+    "interpretation": "Pathogenic; Level 1 evidence for olaparib.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "EGFR c.5266dupC",
+    "gene": "EGFR",
+    "cancer_type": "lung",
+    "interpretation": "Likely pathogenic; PARP inhibitors recommended.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "KRAS L858R",
+    "gene": "KRAS",
+    "cancer_type": "colorectal",
+    "interpretation": "Oncogenic; TKI therapy (osimertinib).",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "PIK3CA G12D",
+    "gene": "PIK3CA",
+    "cancer_type": "breast",
+    "interpretation": "Benign; No actionable therapy.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "HER2 E545K",
+    "gene": "HER2",
+    "cancer_type": "breast",
+    "interpretation": "VUS; Monitor and consider trials.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "ATM Y537S",
+    "gene": "ATM",
+    "cancer_type": "bladder",
+    "interpretation": "Pathogenic; Immunotherapy (pembrolizumab) advised.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "PTEN del746-750",
+    "gene": "PTEN",
+    "cancer_type": "prostate",
+    "interpretation": "Likely oncogenic; Chemo to moderate extent.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "APC Q22*",
+    "gene": "APC",
+    "cancer_type": "colorectal",
+    "interpretation": "Resistance mutation; Switch to alternative TKI.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "TP53 R130*",
+    "gene": "TP53",
+    "cancer_type": "pancreatic",
+    "interpretation": "Founder mutation; Genetic counseling required.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "BRCA1 splice",
+    "gene": "BRCA1",
+    "cancer_type": "ovarian",
+    "interpretation": "Truncating variant; Radiation not advised.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "BRCA2 p.R248W",
+    "gene": "BRCA2",
+    "cancer_type": "gastric",
+    "interpretation": "Pathogenic; Level 1 evidence for olaparib.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "EGFR c.5266dupC",
+    "gene": "EGFR",
+    "cancer_type": "lung",
+    "interpretation": "Likely pathogenic; PARP inhibitors recommended.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "KRAS L858R",
+    "gene": "KRAS",
+    "cancer_type": "colorectal",
+    "interpretation": "Oncogenic; TKI therapy (osimertinib).",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "PIK3CA G12D",
+    "gene": "PIK3CA",
+    "cancer_type": "breast",
+    "interpretation": "Benign; No actionable therapy.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "HER2 E545K",
+    "gene": "HER2",
+    "cancer_type": "breast",
+    "interpretation": "VUS; Monitor and consider trials.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "ATM Y537S",
+    "gene": "ATM",
+    "cancer_type": "leukemia",
+    "interpretation": "Pathogenic; Immunotherapy (pembrolizumab) advised.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "PTEN del746-750",
+    "gene": "PTEN",
+    "cancer_type": "prostate",
+    "interpretation": "Likely oncogenic; Chemo to moderate extent.",
+    "source": "OncoKB"
+  },
+  {
+    "variant": "APC Q22*",
+    "gene": "APC",
+    "cancer_type": "colorectal",
+    "interpretation": "Resistance mutation; Switch to alternative TKI.",
+    "source": "ClinVar"
+  },
+  {
+    "variant": "TP53 R130*",
+    "gene": "TP53",
+    "cancer_type": "pancreatic",
+    "interpretation": "Founder mutation; Genetic counseling required.",
+    "source": "COSMIC"
+  },
+  {
+    "variant": "BRCA1 splice",
+    "gene": "BRCA1",
+    "cancer_type": "ovarian",
+    "interpretation": "Truncating variant; Radiation not advised.",
+    "source": "OncoKB"
+  }
+]
