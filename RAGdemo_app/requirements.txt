@@ -1,0 +1,16 @@
+# Streamlit for the web app
+streamlit==1.28.0
+
+# Pinecone for vector database
+pinecone-client==2.2.2
+
+# Sentence Transformers for BioBERT embeddings
+sentence-transformers==2.2.2
+torch>=2.1.0
+transformers==4.44.2
+sentencepiece==0.1.99
+sacremoses==0.0.53
+
+# Hugging Face pipeline dependencies
+tokenizers==0.14.3
+accelerate==0.23.0
